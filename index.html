@@ -12,11 +12,18 @@
         <strong>Autora:</strong> María Pérez <br />
         <time datetime="2025-08-20">20 de agosto de 2025</time>
       </p>
+      <div>
+        <ul>
+          <li><a href="#sustentabilidad">Sustentabilidad</a></li>
+          <li><a href="#reacciones">Reacciones internacionales</a></li>
+          <li><a href="#compromisos">Compromisos</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
       <article>
-        <section>
+        <section id="sustentabilidad">
           <h2>Un paso hacia la sustentabilidad</h2>
           <p>
             El gobierno argentino firmó hoy un acuerdo internacional que establece
@@ -25,7 +32,7 @@
           </p>
         </section>
 
-        <section>
+        <section id="reacciones">
           <h2>Reacciones internacionales</h2>
           <p>
             Líderes mundiales, organizaciones ambientales y sectores privados celebraron
@@ -34,7 +41,7 @@
           </p>
         </section>
 
-        <section>
+        <section id="compromisos">
           <h2>Compromisos asumidos</h2>
           <p>
             El país se comprometió a reducir un 45% sus emisiones para 2030, invertir en
@@ -42,6 +49,18 @@
           </p>
         </section>
       </article>
+      <section>
+        <h2>Suscribite para recibir más noticias</h2>
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <button type="submit">Suscribirse</button>
+        </form>
+      </section>
     </main>
 
     <footer>
